@@ -1,0 +1,23 @@
+{
+  "name": "tanmuhittin/php-translate",
+  "description": "Translate translation files to other languages using google translate api",
+  "require": {
+    "ext-json": "*",
+    "php": ">=7.0.0",
+    "stichoza/google-translate-php": "^4.0",
+    "google/cloud-translate": "dev-master",
+    "yandex/translate-api": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tanmuhittin\\PhpTranslate\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Muhittin Tan",
+      "email": "tanmuhittin@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
